@@ -1,0 +1,109 @@
+.navbar{
+    font-family: 'poppins';
+    background: white;
+    display:flex;
+    height:70px;
+    justify-content: space-around;
+    margin-left:50px;
+    margin-right: 50px;;
+    align-items: center;
+}
+.active{
+    display:none;
+}
+.navbar_h{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+.h{
+    border:3px solid purple;
+    padding-left:10px;
+    padding-right:10px;
+    color:blue;
+    font-size:24px;
+    font-style: italic;
+}
+.navbarflex{
+    display:flex;
+    gap:5px;
+    align-items: center;
+}
+.blue{
+    color:blue;
+    font-style: italic;
+}
+.purple{
+    color:purple;
+    font-style: italic;
+}
+.hobby_cnt{
+    display:flex;
+    font-size: 14px;
+    flex-direction: column;
+}
+.community{
+    font-style: italic;
+    color:rgb(39, 39, 39)
+
+}
+.navbar_input{
+    display:flex;
+    align-items: center;
+    padding:5px;
+    border:1px solid grey;
+    height:30px;
+    border-radius: 8px;
+}
+.navbar_input>input{
+    border-style: none;
+    width:350px;
+    outline:none;
+}
+.navbarbtn{
+    border: 1px solid purple;
+    background-color: white;
+    color:purple;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 10px;
+}
+.navbarflexbar{
+    display: flex;
+    gap:20px;
+}
+
+@media(max-width:880px) {
+    .navbar{
+        margin:10px;
+        align-items: center;
+    }
+    .navbarflex{
+        display: none;
+    }
+    .navbarflexbar{
+        display:none;
+    }
+    .navbarbtn{
+        display:none;
+    }
+    .navbar_input>input{
+        display: none;
+    
+    }
+    .navbar_input{
+        border-style: none;
+    }
+    .h{
+        font-size: 14px;
+        padding-left:5px;
+    padding-right:5px;
+    }
+    .hobby_cnt{
+        font-size: 12px;
+    }
+    .active{
+        display:block;
+    }
+}

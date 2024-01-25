@@ -1,0 +1,14 @@
+.body-cnt{
+    flex:7;
+}
+.body_heading{
+    font-family: 'poppins';
+    font-style: italic;
+    font-size:24px;
+    font-weight: 600;
+}
+@media(max-width:880px){
+    .body-cnt>img{
+        width:430px;
+    }
+}

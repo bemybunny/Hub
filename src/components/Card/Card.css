@@ -1,0 +1,36 @@
+.cardcontainer{
+    font-family: 'poppins';
+    margin:100px;
+}
+.card-flex{
+    display:flex;
+
+}
+.cardheading{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.card-btn{
+    color:rgb(189, 0, 189);
+    border: 1px solid rgb(185, 0, 185);
+    background-color: white;
+    padding:10px;
+    border-radius: 6px;
+}
+.cardbox{
+    background-color: white;
+    border:1px solid rgb(184, 184, 184);
+    margin:10px;
+    padding:20px;
+    border-radius: 10px;
+}
+@media(max-width:880px){
+    .cardcontainer{
+        margin:10px;
+    }
+    .card-flex{
+        display:flex;
+        flex-direction: column;
+    }
+}

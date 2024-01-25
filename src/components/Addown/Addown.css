@@ -1,0 +1,37 @@
+.addown{
+    font-family: 'poppins';
+    background: white;
+    border:1px solid rgb(216, 216, 216);
+    margin:100px;
+    padding:10px;
+    display:flex;
+    border-radius: 4px;
+    flex-direction: column;
+    gap:20px;
+}
+.addown>span{
+    font-size:14px;
+    font-weight: 300;
+}
+.addownCnt{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+.addownCnt>span{
+    font-weight: 600;
+    font-size:20px;
+}
+.addown>button{
+    width:200px;
+    padding:10px;
+    border-radius: 6px;
+    background-color: white;
+    color:purple;
+    border:1px solid purple;
+}
+@media(max-width:880px){
+    .addown{
+        margin:10px;
+    }
+}

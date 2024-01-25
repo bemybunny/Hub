@@ -1,0 +1,30 @@
+.Getstarted{
+    font-family: 'poppins';
+    margin:100px;
+    background-color: rgb(237, 237, 255);
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.Getstarted>span{
+    font-size:24px;
+}
+.Getstarted>button{
+    background-color: purple;
+    color:white;
+    width:150px;
+    padding:10px;
+    outline: none;
+    font-weight: 500;
+    border-style: none;
+}
+@media(max-width:880px){
+    .Getstarted{
+        font-family: 'poppins';
+        margin:10px;
+    }
+    .Getstarted>button{
+        width:100px;
+    }
+}

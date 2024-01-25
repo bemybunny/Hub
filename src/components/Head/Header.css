@@ -1,0 +1,14 @@
+.header{
+    font-family: 'poppins';
+    display:flex;
+    gap:50px;
+    background-color: rgba(226, 223, 223, 0.288);
+    padding:100px;
+}
+@media(max-width:880px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        padding:10px;
+    }
+}
